@@ -279,3 +279,145 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+!SESSION 2021-10-11 14:37:45.858 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/georgianaszocs/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/georgianaszocs/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2021-10-11 14:38:27.937
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-11 14:38:27.937
+!MESSAGE A conflict occurred for COMMAND+F:
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4088702d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c24c40a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-10-11 14:39:11.065 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Framework arguments:  -keyring /Users/georgianaszocs/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data file:/Users/georgianaszocs/Desktop/Tommaso/M2/DCD/TP_knime/ -keyring /Users/georgianaszocs/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2021-10-11 14:39:16.647
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-11 14:39:16.647
+!MESSAGE A conflict occurred for COMMAND+F:
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42805abe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e7517aa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2021-10-11 16:15:49.767
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.dnd.DragSource.dragImageForRowsWithIndexes_tableColumns_event_offset(DragSource.java:456)
+	at org.eclipse.swt.dnd.DragSource.dragSourceProc(DragSource.java:578)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSTableView.dragImageForRowsWithIndexes(NSTableView.java:59)
+	at org.eclipse.swt.dnd.TreeDragSourceEffect.getDragSourceImage(TreeDragSourceEffect.java:91)
+	at org.eclipse.swt.dnd.TreeDragSourceEffect.dragStart(TreeDragSourceEffect.java:80)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:36)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.dnd.DragSource.startDrag(DragSource.java:824)
+	at org.eclipse.swt.dnd.DragSource.dragOutlineViewStart(DragSource.java:400)
+	at org.eclipse.swt.dnd.DragSource.lambda$0(DragSource.java:215)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4441)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.sendMouseEvent(Control.java:3506)
+	at org.eclipse.swt.widgets.Tree.sendMouseEvent(Tree.java:2826)
+	at org.eclipse.swt.widgets.Tree.outlineView_writeItems_toPasteboard(Tree.java:2469)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6661)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1146)
+	at org.eclipse.swt.widgets.Tree.mouseDownSuper(Tree.java:2172)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1138)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2625)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:2139)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6079)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6203)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5442)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5585)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.mouseDownSuper(Widget.java:1146)
+	at org.eclipse.swt.widgets.Tree.mouseDownSuper(Tree.java:2172)
+	at org.eclipse.swt.widgets.Widget.mouseDown(Widget.java:1138)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2625)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:2139)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6079)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:235)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2150)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2487)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6203)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5442)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5585)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3834)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)

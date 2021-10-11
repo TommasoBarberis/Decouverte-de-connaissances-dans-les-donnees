@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="table_meta_info">
+    <entry key="table_ID" type="xint" value="906"/>
+    <entry key="table_type" type="xstring" value="concatenate_table"/>
+    <config key="table_references">
+        <entry key="array-size" type="xint" value="32"/>
+        <entry key="0" type="xstring" value="r0"/>
+        <entry key="1" type="xstring" value="r1"/>
+        <entry key="2" type="xstring" value="r2"/>
+        <entry key="3" type="xstring" value="r3"/>
+        <entry key="4" type="xstring" value="r4"/>
+        <entry key="5" type="xstring" value="r5"/>
+        <entry key="6" type="xstring" value="r6"/>
+        <entry key="7" type="xstring" value="r7"/>
+        <entry key="8" type="xstring" value="r8"/>
+        <entry key="9" type="xstring" value="r9"/>
+        <entry key="10" type="xstring" value="r10"/>
+        <entry key="11" type="xstring" value="r11"/>
+        <entry key="12" type="xstring" value="r12"/>
+        <entry key="13" type="xstring" value="r13"/>
+        <entry key="14" type="xstring" value="r14"/>
+        <entry key="15" type="xstring" value="r15"/>
+        <entry key="16" type="xstring" value="r16"/>
+        <entry key="17" type="xstring" value="r17"/>
+        <entry key="18" type="xstring" value="r18"/>
+        <entry key="19" type="xstring" value="r19"/>
+        <entry key="20" type="xstring" value="r20"/>
+        <entry key="21" type="xstring" value="r21"/>
+        <entry key="22" type="xstring" value="r22"/>
+        <entry key="23" type="xstring" value="r23"/>
+        <entry key="24" type="xstring" value="r24"/>
+        <entry key="25" type="xstring" value="r25"/>
+        <entry key="26" type="xstring" value="r26"/>
+        <entry key="27" type="xstring" value="r27"/>
+        <entry key="28" type="xstring" value="r28"/>
+        <entry key="29" type="xstring" value="r29"/>
+        <entry key="30" type="xstring" value="r30"/>
+        <entry key="31" type="xstring" value="r31"/>
+    </config>
+    <config key="meta_internal">
+        <config key="table_reference_IDS">
+            <entry key="array-size" type="xint" value="32"/>
+            <entry key="0" type="xint" value="844"/>
+            <entry key="1" type="xint" value="846"/>
+            <entry key="2" type="xint" value="847"/>
+            <entry key="3" type="xint" value="849"/>
+            <entry key="4" type="xint" value="851"/>
+            <entry key="5" type="xint" value="853"/>
+            <entry key="6" type="xint" value="855"/>
+            <entry key="7" type="xint" value="858"/>
+            <entry key="8" type="xint" value="860"/>
+            <entry key="9" type="xint" value="861"/>
+            <entry key="10" type="xint" value="863"/>
+            <entry key="11" type="xint" value="865"/>
+            <entry key="12" type="xint" value="867"/>
+            <entry key="13" type="xint" value="870"/>
+            <entry key="14" type="xint" value="871"/>
+            <entry key="15" type="xint" value="873"/>
+            <entry key="16" type="xint" value="876"/>
+            <entry key="17" type="xint" value="878"/>
+            <entry key="18" type="xint" value="880"/>
+            <entry key="19" type="xint" value="881"/>
+            <entry key="20" type="xint" value="883"/>
+            <entry key="21" type="xint" value="886"/>
+            <entry key="22" type="xint" value="887"/>
+            <entry key="23" type="xint" value="890"/>
+            <entry key="24" type="xint" value="891"/>
+            <entry key="25" type="xint" value="894"/>
+            <entry key="26" type="xint" value="895"/>
+            <entry key="27" type="xint" value="897"/>
+            <entry key="28" type="xint" value="899"/>
+            <entry key="29" type="xint" value="902"/>
+            <entry key="30" type="xint" value="903"/>
+            <entry key="31" type="xint" value="905"/>
+        </config>
+        <entry key="table_rowcount" type="xint" value="6963"/>
+        <entry key="duplicate_row_key_suffix" type="xstring" isnull="true" value=""/>
+    </config>
+    <entry key="table_file_name" type="xstring" isnull="true" value=""/>
+</config>

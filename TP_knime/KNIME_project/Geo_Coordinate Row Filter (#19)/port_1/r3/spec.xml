@@ -37,92 +37,182 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="15"/>
+                <entry key="array-size" type="xint" value="30"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="53049330@N03"/>
+                        <entry key="StringCell" type="xstring" value="87878535@N08"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="75906220@N07"/>
+                        <entry key="StringCell" type="xstring" value="90807366@N04"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="24196199@N00"/>
+                        <entry key="StringCell" type="xstring" value="53049330@N03"/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="37981571@N06"/>
+                        <entry key="StringCell" type="xstring" value="51516759@N08"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="27910428@N08"/>
+                        <entry key="StringCell" type="xstring" value="128125959@N05"/>
                     </config>
                 </config>
                 <config key="5">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="18937147@N00"/>
+                        <entry key="StringCell" type="xstring" value="67990370@N07"/>
                     </config>
                 </config>
                 <config key="6">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="74375651@N05"/>
+                        <entry key="StringCell" type="xstring" value="135974300@N02"/>
                     </config>
                 </config>
                 <config key="7">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="54979873@N08"/>
+                        <entry key="StringCell" type="xstring" value="24196199@N00"/>
                     </config>
                 </config>
                 <config key="8">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="131985575@N04"/>
+                        <entry key="StringCell" type="xstring" value="37981571@N06"/>
                     </config>
                 </config>
                 <config key="9">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="13818951@N08"/>
+                        <entry key="StringCell" type="xstring" value="74375651@N05"/>
                     </config>
                 </config>
                 <config key="10">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="115301102@N04"/>
+                        <entry key="StringCell" type="xstring" value="134321553@N05"/>
                     </config>
                 </config>
                 <config key="11">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="49948988@N03"/>
+                        <entry key="StringCell" type="xstring" value="58672892@N06"/>
                     </config>
                 </config>
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="54286118@N05"/>
+                        <entry key="StringCell" type="xstring" value="131985575@N04"/>
                     </config>
                 </config>
                 <config key="13">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="52382736@N00"/>
+                        <entry key="StringCell" type="xstring" value="27910428@N08"/>
                     </config>
                 </config>
                 <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="18937147@N00"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="131317409@N08"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="32215553@N02"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="54979873@N08"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="55388046@N05"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="78607708@N02"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="13818951@N08"/>
+                    </config>
+                </config>
+                <config key="21">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="115301102@N04"/>
+                    </config>
+                </config>
+                <config key="22">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="109536074@N05"/>
+                    </config>
+                </config>
+                <config key="23">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="49948988@N03"/>
+                    </config>
+                </config>
+                <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="60447100@N04"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="75906220@N07"/>
+                    </config>
+                </config>
+                <config key="26">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="54286118@N05"/>
+                    </config>
+                </config>
+                <config key="27">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="56693063@N08"/>
+                    </config>
+                </config>
+                <config key="28">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="52382736@N00"/>
+                    </config>
+                </config>
+                <config key="29">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
                         <entry key="StringCell" type="xstring" value="83294602@N03"/>
@@ -191,161 +281,7 @@
         <config key="column_type">
             <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
         </config>
-        <config key="column_domain">
-            <config key="possible_values">
-                <entry key="array-size" type="xint" value="25"/>
-                <config key="0">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon"/>
-                    </config>
-                </config>
-                <config key="1">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="doors,portes"/>
-                    </config>
-                </config>
-                <config key="2">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="white,sign,museum,architecture,writing,words,lyon,direction,auditorium,coophimmelblau,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="3">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="lyon,confluence"/>
-                    </config>
-                </config>
-                <config key="4">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="street,people,fuji,lyon,fujinon,xt1,18135mm,muséedesconfluences"/>
-                    </config>
-                </config>
-                <config key="5">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,cadenas,lyon,amour,urbain,2015"/>
-                    </config>
-                </config>
-                <config key="6">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,urbain,2015"/>
-                    </config>
-                </config>
-                <config key="7">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,nikon,lyon,belltower,hopital,d800,placebellecour,presquîle,nikor,1424mmf28,worldheritagesitebyunesco,antoninponcet"/>
-                    </config>
-                </config>
-                <config key="8">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value=""/>
-                    </config>
-                </config>
-                <config key="9">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,starwars,lyon,starwarsidentities"/>
-                    </config>
-                </config>
-                <config key="10">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,file:md5sum=4370f26af3bfb511ba8901c9ad2cd3d7,file:sha1sig=f720efe6138ef78935bc3a8b476691aaae7ea0e0"/>
-                    </config>
-                </config>
-                <config key="11">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,pont,saône,rhônealpes"/>
-                    </config>
-                </config>
-                <config key="12">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,file:md5sum=48f0ffbf20fcea41a110c39dbceb2caa,file:sha1sig=e6b0160dfee5d916e898e94386420c0b327dd698"/>
-                    </config>
-                </config>
-                <config key="13">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,file:md5sum=b31802ee9b6efafe264b42b403f0c7af,file:sha1sig=481e72b9f0c497e96420032f6322b6045c991ccf"/>
-                    </config>
-                </config>
-                <config key="14">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,lyon,file:md5sum=ce05dce20f3590828c0e9f219f3d955d,file:sha1sig=3a800e0736d4462839bcb487b5330bcba694ce28"/>
-                    </config>
-                </config>
-                <config key="15">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="stilllife,nuts,naturemorte,noix"/>
-                    </config>
-                </config>
-                <config key="16">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="museum,architecture,facade,lyon,steel,panes,coophimmelblau,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="17">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="museum,architecture,lyon,coophimmelblau,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="18">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="glass,museum,architecture,lyon,coophimmelblau,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="19">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="water,museum,architecture,lyon,coophimmelblau,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="20">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="museum,architecture,lyon,coophimmelblau,deconstructivism,confluences,muséedesconfluences,luciobeltrami"/>
-                    </config>
-                </config>
-                <config key="21">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,boots,streetshots,overknee,otk"/>
-                    </config>
-                </config>
-                <config key="22">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="france,color,120,6x6,film,colors,mediumformat,holidays,colore,lyon,kodak,lione,arc,august,agosto,analogue,filmcamera,passage,francia,arco,yashica,vacanze,analogica,croixrousse,2015,pellicola,analogico,rullino,medioformato"/>
-                    </config>
-                </config>
-                <config key="23">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="back,le,future,to,delorean,dmc12,vers,futur,retour,the"/>
-                    </config>
-                </config>
-                <config key="24">
-                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="back,le,future,to,delorean,dmc12,vers,futur,hoverboard,retour,the"/>
-                    </config>
-                </config>
-            </config>
-        </config>
+        <config key="column_domain"/>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>

@@ -22,26 +22,26 @@
             },
             {
                 "id": "org.knime.ext.osm.node.mapview.OsmMapViewNodeFactory#OSM Map View",
-                "nrexecs": 16,
+                "nrexecs": 46,
                 "nrfails": 2,
-                "exectime": 324971,
-                "nrcreated": 1,
+                "exectime": 325360,
+                "nrcreated": 3,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.filereader.FileReaderNodeFactory#File Reader (Complex Format)",
-                "nrexecs": 7,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 29293,
-                "nrcreated": 1,
+                "exectime": 31915,
+                "nrcreated": 3,
                 "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter"
             },
             {
                 "id": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter",
-                "nrexecs": 9,
+                "nrexecs": 11,
                 "nrfails": 0,
-                "exectime": 28960,
-                "nrcreated": 1,
+                "exectime": 30233,
+                "nrcreated": 3,
                 "successor": "org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory#Geo-Coordinate Row Filter"
             },
             {
@@ -54,35 +54,35 @@
             },
             {
                 "id": "org.knime.distance.measure.numerical.NumericalDistanceNodeFactory#Numeric Distances",
-                "nrexecs": 9,
+                "nrexecs": 18,
                 "nrfails": 0,
-                "exectime": 33,
-                "nrcreated": 2,
+                "exectime": 71,
+                "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN"
             },
             {
                 "id": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN",
-                "nrexecs": 11,
+                "nrexecs": 48,
                 "nrfails": 3,
-                "exectime": 3350372,
-                "nrcreated": 1,
+                "exectime": 3973276,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
                 "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
-                "nrexecs": 12,
+                "nrexecs": 39,
                 "nrfails": 0,
-                "exectime": 17,
-                "nrcreated": 1,
+                "exectime": 23,
+                "nrcreated": 3,
                 "successor": "org.knime.ext.osm.node.mapview.OsmMapViewNodeFactory#OSM Map View"
             },
             {
                 "id": "org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory#Geo-Coordinate Row Filter",
-                "nrexecs": 5,
+                "nrexecs": 14,
                 "nrfails": 0,
-                "exectime": 3313,
-                "nrcreated": 1,
-                "successor": "org.knime.distance.measure.numerical.NumericalDistanceNodeFactory#Numeric Distances"
+                "exectime": 4535,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN"
             },
             {
                 "id": "org.knime.distmatrix.calculate2.DistanceMatrixCalculate2NodeFactory#Distance Matrix Calculate",
@@ -102,18 +102,18 @@
             },
             {
                 "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
-                "nrexecs": 3,
+                "nrexecs": 10,
                 "nrfails": 0,
-                "exectime": 1712,
-                "nrcreated": 1,
+                "exectime": 6825,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
-                "nrexecs": 4,
+                "nrexecs": 36,
                 "nrfails": 0,
-                "exectime": 288,
-                "nrcreated": 1,
+                "exectime": 1068,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
             }
         ],
@@ -122,14 +122,14 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 4199699,
+    "uptime": 4641342,
     "workflowsOpened": 0,
     "remoteWorkflowsOpened": 5,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 4,
+    "launches": 6,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 2586957,
+    "timeSinceLastStart": 11016367,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }

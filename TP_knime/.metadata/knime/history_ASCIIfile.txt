@@ -1,3 +1,4 @@
+/Users/georgianaszocs/Desktop/Tommaso/M2/DCD/TP_knime/flickr_data.csv
 knime://knime.workflow/data.all
 /home/tommaso/M2/Semestre_3/DCD/TP1/flickr_data.csv
 knime://knime.workflow/data/file1.txt
