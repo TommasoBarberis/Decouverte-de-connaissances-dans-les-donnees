@@ -1,0 +1,571 @@
+2021-10-04 12:16:37,536 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139967682676320}
+2021-10-04 12:18:08,787 : WARN  : main :  : Node : File Reader : 3:1 : Please specify a file
+2021-10-04 12:23:03,371 : WARN  : main :  : Node : GroupBy : 3:2 : No grouping column included. Aggregate complete table.
+2021-10-04 12:23:03,371 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:23:03,372 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:23:03,500 : WARN  : main :  : Node : GroupBy : 3:2 : Please select at least one group or aggregation column
+2021-10-04 12:27:21,082 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:27:21,082 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:27:50,476 : ERROR : KNIME-Worker-10-File Reader 3:1 :  : Node : File Reader : 3:1 : Execute failed: The data row has too many data elements.
+java.lang.IllegalArgumentException: The data row has too many data elements.
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:116)
+	at org.knime.filehandling.core.node.table.reader.read.CheckSameSizeRead.next(CheckSameSizeRead.java:84)
+	at org.knime.filehandling.core.node.table.reader.read.SkipIdxRead.next(SkipIdxRead.java:85)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:142)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:135)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-10-04 12:28:28,640 : ERROR : main :  : AbstractCreateNewConnectedNodeCommand :  :  : Unable to add connection from GroupBy 3:2 port 1 to GroupBy 3:2port 1: Cannot add connection!
+2021-10-04 12:28:49,200 : WARN  : main :  : Node : GroupBy : 3:2 : No grouping column included. Aggregate complete table.
+2021-10-04 12:28:49,201 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:28:49,201 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:28:49,202 : WARN  : main :  : Node : GroupBy : 3:2 : Please select at least one group or aggregation column
+2021-10-04 12:29:05,159 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:29:05,159 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:29:09,148 : ERROR : KNIME-Worker-11-File Reader 3:1 :  : Node : File Reader : 3:1 : Execute failed: The data row has too many data elements.
+java.lang.IllegalArgumentException: The data row has too many data elements.
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:116)
+	at org.knime.filehandling.core.node.table.reader.read.CheckSameSizeRead.next(CheckSameSizeRead.java:84)
+	at org.knime.filehandling.core.node.table.reader.read.SkipIdxRead.next(SkipIdxRead.java:85)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:142)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:135)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-10-04 12:29:09,153 : WARN  : KNIME-Worker-11-File Reader 3:1 :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:29:09,161 : WARN  : KNIME-Worker-11-File Reader 3:1 :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:30:22,292 : ERROR : KNIME-Worker-12-File Reader 3:1 :  : Node : File Reader : 3:1 : Execute failed: The data row has too many data elements.
+java.lang.IllegalArgumentException: The data row has too many data elements.
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:116)
+	at org.knime.filehandling.core.node.table.reader.read.CheckSameSizeRead.next(CheckSameSizeRead.java:84)
+	at org.knime.filehandling.core.node.table.reader.read.SkipIdxRead.next(SkipIdxRead.java:85)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:142)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:135)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-10-04 12:30:22,297 : WARN  : KNIME-Worker-12-File Reader 3:1 :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:30:22,297 : WARN  : KNIME-Worker-12-File Reader 3:1 :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:32:57,380 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:32:57,381 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:32:58,264 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:32:58,264 : WARN  : main :  : Node : GroupBy : 3:2 : No aggregation column defined
+2021-10-04 12:33:50,891 : WARN  : ModalContext :  : Node : MISSING Empty Table Creator : 0:94:76 : Node can't be executed - Node "Empty Table Creator" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,252 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 03_GeoIP_Visualization_using_Open_Street_Map_(OSM) 0 loaded with error during data load
+2021-10-04 12:33:51,256 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 03_GeoIP_Visualization_using_Open_Street_Map_(OSM) 0
+2021-10-04 12:33:51,261 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "OSM Map View" not available from extension "KNIME Open Street Map Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.osm" is not installed)
+2021-10-04 12:33:51,264 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "OSM Map to Image" not available from extension "KNIME Open Street Map Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.osm" is not installed)
+2021-10-04 12:33:51,264 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: GeoIP database 0:93
+2021-10-04 12:33:51,267 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: CSV Reader (deprecated) 0:93:88
+2021-10-04 12:33:51,268 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "CSV Reader (deprecated)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/GeoIP databa (#93)/CSV Reader (#88)/port_1/data.xml
+2021-10-04 12:33:51,276 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2021-10-04 12:33:51,282 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: CSV Reader (deprecated) 0:93:89
+2021-10-04 12:33:51,283 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "CSV Reader (deprecated)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/GeoIP databa (#93)/CSV Reader (#89)/port_1/data.xml
+2021-10-04 12:33:51,284 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2021-10-04 12:33:51,285 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Joiner (deprecated) 0:93:90
+2021-10-04 12:33:51,286 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Joiner (deprecated)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/GeoIP databa (#93)/Joiner (#90)/port_1/data.xml
+2021-10-04 12:33:51,286 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/GeoIP databa (#93)/Joiner (#90)/internal/joinerInternalSettings (Aucun fichier ou dossier de ce type)
+2021-10-04 12:33:51,287 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: RowID 0:93:91
+2021-10-04 12:33:51,288 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "RowID": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/GeoIP databa (#93)/RowID (#91)/port_1/data.xml
+2021-10-04 12:33:51,293 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:33:51,294 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Generate random IP-addresses 0:94
+2021-10-04 12:33:51,295 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Empty Table Creator" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,295 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,296 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,297 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,297 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,298 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,299 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Random Number Assigner (Apache)" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2021-10-04 12:33:51,300 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Empty Table Creator 0:94:76
+2021-10-04 12:33:51,301 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Empty Table Creator": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Empty Table Creator (#76)/port_1/data.xml
+2021-10-04 12:33:51,302 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:33:51,302 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:91
+2021-10-04 12:33:51,309 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#91)/port_1/data.xml
+2021-10-04 12:33:51,311 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:92
+2021-10-04 12:33:51,312 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#92)/port_1/data.xml
+2021-10-04 12:33:51,313 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:93
+2021-10-04 12:33:51,324 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#93)/port_1/data.xml
+2021-10-04 12:33:51,324 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:94
+2021-10-04 12:33:51,325 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#94)/port_1/data.xml
+2021-10-04 12:33:51,326 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:95
+2021-10-04 12:33:51,329 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#95)/port_1/data.xml
+2021-10-04 12:33:51,330 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Random Number Assigner (Apache) 0:94:96
+2021-10-04 12:33:51,331 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Random Number Assigner (Apache)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Random Number Assigner _Apache_ (#96)/port_1/data.xml
+2021-10-04 12:33:51,331 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Double To Int 0:94:97
+2021-10-04 12:33:51,332 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Double To Int": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Double To Int (#97)/port_1/data.xml
+2021-10-04 12:33:51,332 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Aggregator 0:94:84
+2021-10-04 12:33:51,333 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Aggregator": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Column Aggregator (#84)/port_1/data.xml
+2021-10-04 12:33:51,334 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Math Formula 0:94:83
+2021-10-04 12:33:51,335 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Math Formula": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Math Formula (#83)/port_1/data.xml
+2021-10-04 12:33:51,336 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Math Formula 0:94:87
+2021-10-04 12:33:51,336 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Math Formula": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Math Formula (#87)/port_1/data.xml
+2021-10-04 12:33:51,339 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Filter 0:94:86
+2021-10-04 12:33:51,340 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Generate ran (#94)/Column Filter (#86)/port_1/data.xml
+2021-10-04 12:33:51,341 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:33:51,341 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Binner (Dictionary) 0:92
+2021-10-04 12:33:51,342 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Binner (Dictionary)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Binner _Dictionary_ (#92)/port_1/data.xml
+2021-10-04 12:33:51,342 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:33:51,343 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Joiner (deprecated) 0:95
+2021-10-04 12:33:51,343 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Joiner (deprecated)": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Joiner (#95)/port_1/data.xml
+2021-10-04 12:33:51,344 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Joiner (#95)/internal/joinerInternalSettings (Aucun fichier ou dossier de ce type)
+2021-10-04 12:33:51,344 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Map-marker appearance 0:102
+2021-10-04 12:33:51,344 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Constant Value Column 0:102:100
+2021-10-04 12:33:51,348 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Constant Value Column": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Map_marker a (#102)/Constant Value Column (#100)/port_1/data.xml
+2021-10-04 12:33:51,349 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:33:51,349 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Domain Calculator 0:102:99
+2021-10-04 12:33:51,350 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Domain Calculator": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Map_marker a (#102)/Domain Calculator (#99)/port_1/data.xml
+2021-10-04 12:33:51,350 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Size Manager 0:102:96
+2021-10-04 12:33:51,350 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Size Manager": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Map_marker a (#102)/Size Manager (#96)/port_1/data.xml
+2021-10-04 12:33:51,351 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Shape Manager 0:102:97
+2021-10-04 12:33:51,351 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Shape Manager": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Map_marker a (#102)/Shape Manager (#97)/port_1/data.xml
+2021-10-04 12:33:51,352 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Color Manager 0:102:98
+2021-10-04 12:33:51,352 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Color Manager": No such data file: /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/Map_marker a (#102)/Color Manager (#98)/port_1/data.xml
+2021-10-04 12:33:51,352 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING OSM Map to Image 0:103
+2021-10-04 12:33:51,353 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING OSM Map to Image": Can't read spec file /tmp/knime_temp_space_tommaso_97938/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)97946/03_GeoIP_Visualization_using_Open_Street_Map_(OSM)/OSM Map to Image (#103)/port_1/spec/spec.zip
+2021-10-04 12:33:51,353 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2021-10-04 12:35:38,169 : WARN  : ModalContext :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:35:38,196 : WARN  : ModalContext :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:35:39,628 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140093981561440}
+2021-10-04 12:36:04,532 : WARN  : main :  : Node : OSM Map View : 0:3 : Latitude and/or Longitude columns for map markers do not exist.
+2021-10-04 12:36:08,415 : ERROR : KNIME-Worker-0-File Reader 0:1 :  : Node : File Reader : 0:1 : Execute failed: The data row has too many data elements.
+java.lang.IllegalArgumentException: The data row has too many data elements.
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:116)
+	at org.knime.filehandling.core.node.table.reader.read.CheckSameSizeRead.next(CheckSameSizeRead.java:84)
+	at org.knime.filehandling.core.node.table.reader.read.SkipIdxRead.next(SkipIdxRead.java:85)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:142)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:135)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-10-04 12:36:08,421 : WARN  : KNIME-Worker-0-File Reader 0:1 :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:36:08,422 : WARN  : KNIME-Worker-0-File Reader 0:1 :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:40:19,473 : WARN  : main :  : Node : File Reader (Complex Format) : 0:4 : Please specify a file
+2021-10-04 12:41:19,664 : WARN  : main :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:41:19,664 : WARN  : main :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:41:22,078 : WARN  : main :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:41:22,079 : WARN  : main :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:41:36,264 : WARN  : KNIME-Worker-4-File Reader (Complex Format) 0:4 :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-04 12:41:36,264 : WARN  : KNIME-Worker-4-File Reader (Complex Format) 0:4 :  : Node : GroupBy : 0:2 : No aggregation column defined
+2021-10-11 09:47:21,554 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140614343692480}
+2021-10-11 10:00:36,758 : WARN  : main :  : Node : GroupBy : 0:6 : No grouping column included. Aggregate complete table.
+2021-10-11 10:00:36,760 : WARN  : main :  : Node : GroupBy : 0:6 : No aggregation column defined
+2021-10-11 10:00:36,760 : WARN  : main :  : Node : GroupBy : 0:6 : No aggregation column defined
+2021-10-11 10:00:36,761 : WARN  : main :  : Node : GroupBy : 0:6 : Please select at least one group or aggregation column
+2021-10-11 10:05:01,246 : WARN  : main :  : Node : Numeric Distances : 0:6 : Guessing columns: '"id", "lat", "long", "date_taken_minute",  ... <9 more>' and
+Standard Distance (Euclidean/ Manhattan).
+2021-10-11 10:20:15,263 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Latitude and/or Longitude columns do not exist.
+2021-10-11 10:21:25,727 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:28,353 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:35,645 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:35,715 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:44,311 : WARN  : KNIME-Worker-14-File Reader (Complex Format) 0:4 :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:46,643 : WARN  : KNIME-Worker-15-Duplicate Row Filter 0:5 :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:21:46,645 : WARN  : KNIME-Worker-16-Geo-Coordinate Row Filter 0:9 :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:22:05,804 : WARN  : main :  : Node : Geo-Coordinate Row Filter : 0:9 : Same column selected for longitude and latitude.
+2021-10-11 10:24:41,325 : ERROR : main :  : Node : Numeric Distances : 0:10 : Could not save model
+java.lang.NullPointerException
+	at org.knime.distance.category.GenericDistanceNodeModel.saveSettingsTo(GenericDistanceNodeModel.java:196)
+	at org.knime.core.node.Node.saveModelSettingsTo(Node.java:2361)
+	at org.knime.core.node.workflow.NativeNodeContainer.performSaveModelSettingsTo(NativeNodeContainer.java:1094)
+	at org.knime.core.node.workflow.SingleNodeContainer.saveSNCSettings(SingleNodeContainer.java:887)
+	at org.knime.core.node.workflow.SingleNodeContainer.saveSettings(SingleNodeContainer.java:853)
+	at org.knime.core.node.workflow.NativeNodeContainer.getDialogPaneWithSettings(NativeNodeContainer.java:1298)
+	at org.knime.core.node.workflow.NodeContainer.getDialogPaneWithSettings(NodeContainer.java:1036)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.getDialogPaneWithSettings(NodeContainerWrapper.java:130)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.lambda$0(WrappedNodeDialog.java:156)
+	at org.knime.workbench.ui.async.AsyncUtil.ncAsyncSwitchRethrow(AsyncUtil.java:247)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.<init>(WrappedNodeDialog.java:156)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:933)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:843)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:832)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:396)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2021-10-11 10:25:12,814 : WARN  : main :  : Node : Numeric Distances : 0:10 : Guessing columns: '"id", "lat", "long", "date_taken_minute",  ... <9 more>' and
+Standard Distance (Euclidean/ Manhattan).
+2021-10-11 10:29:55,221 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:30:12,170 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:30:13,460 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:30:40,377 : WARN  : KNIME-Worker-18-k-Means 0:13 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:30:44,290 : WARN  : KNIME-Worker-19-Color Manager 0:14 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:32:22,262 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:32:23,967 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:32:32,588 : WARN  : KNIME-Worker-21-k-Means 0:13 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:32:32,596 : WARN  : KNIME-Worker-22-Color Manager 0:14 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:35:16,010 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:35:18,006 : WARN  : main :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:35:23,952 : WARN  : KNIME-Worker-25-k-Means 0:13 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:35:23,960 : WARN  : KNIME-Worker-26-Color Manager 0:14 :  : Node : Color Manager : 0:14 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:36:56,417 : WARN  : main :  : Node : Matrix Distance : 0:12 : Guessing column: '"Distance"' and
+MatrixDistanceFactory.
+2021-10-11 10:36:56,420 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:40:51,903 : WARN  : KNIME-Worker-29-DBSCAN 0:7 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:40:51,911 : WARN  : KNIME-Worker-31-Color Manager 0:8 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:42:12,726 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:42:20,761 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:42:22,921 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:46:42,425 : WARN  : KNIME-Worker-33-DBSCAN 0:7 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:46:42,431 : WARN  : KNIME-Worker-34-Color Manager 0:8 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:48:19,011 : ERROR : KNIME-Worker-35-OSM Map View 0:3 :  : Node : OSM Map View : 0:3 : Execute failed: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.append(Unknown Source)
+	at java.base/java.lang.StringBuilder.append(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal$BinaryToASCIIBuffer.appendTo(Unknown Source)
+	at java.base/jdk.internal.math.FloatingDecimal.appendTo(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.append(Unknown Source)
+	at java.base/java.lang.StringBuilder.append(Unknown Source)
+	at java.base/java.util.Arrays.toString(Unknown Source)
+	at org.knime.distmatrix.type.DistanceVectorImpl.toString(DistanceVectorImpl.java:263)
+	at org.knime.distmatrix.type.DistanceVectorBlobDataCell.toString(DistanceVectorBlobDataCell.java:139)
+	at org.knime.ext.osm.node.mapview.OsmMapViewNodeModel.execute(OsmMapViewNodeModel.java:221)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:765)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-10-11 10:49:06,645 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:49:07,780 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:52:56,432 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:53:03,409 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:53:04,378 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:55:43,168 : WARN  : KNIME-Worker-36-DBSCAN 0:7 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:55:43,175 : WARN  : KNIME-Worker-38-Color Manager 0:8 :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:58:48,439 : ERROR : KNIME-Worker-39-OSM Map View 0:3 :  : Node : OSM Map View : 0:3 : Execute failed: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+2021-10-11 10:59:49,134 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 10:59:50,783 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:02:09,374 : WARN  : KNIME-Worker-37-DBSCAN 0:16 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:02:25,521 : WARN  : KNIME-Worker-40-Color Manager 0:18 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:02:57,379 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:02:58,121 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:04:02,341 : WARN  : main :  : WrappedNodeDialog : Numeric Distances : 0:10 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1989)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1088)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:625)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$6.widgetSelected(WrappedNodeDialog.java:510)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:935)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:843)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:832)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:396)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2021-10-11 11:04:09,074 : WARN  : KNIME-Worker-42-DBSCAN 0:16 :  : Node : DBSCAN : 0:16 : Execution canceled
+2021-10-11 11:04:09,077 : WARN  : KNIME-Worker-42-DBSCAN 0:16 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:04:16,009 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:04:16,012 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:04:16,872 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:04:16,874 : WARN  : main :  : Node : Color Manager : 0:8 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:06:11,766 : WARN  : main :  : WrappedNodeDialog : Color Manager : 0:18 : failed to apply settings: No color settings for Cluster available.
+org.knime.core.node.InvalidSettingsException: No color settings for Cluster available.
+	at org.knime.base.node.viz.property.color.ColorManager2NodeDialogPane.saveSettingsTo(ColorManager2NodeDialogPane.java:415)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 11:16:18,331 : WARN  : KNIME-Worker-44-DBSCAN 0:16 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:26:25,706 : WARN  : main :  : WrappedNodeDialog : Color Manager : 0:18 : failed to apply settings: No color settings for Cluster available.
+org.knime.core.node.InvalidSettingsException: No color settings for Cluster available.
+	at org.knime.base.node.viz.property.color.ColorManager2NodeDialogPane.saveSettingsTo(ColorManager2NodeDialogPane.java:415)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 11:26:33,759 : WARN  : main :  : WrappedNodeDialog : Color Manager : 0:18 : failed to apply settings: No color settings for Cluster available.
+org.knime.core.node.InvalidSettingsException: No color settings for Cluster available.
+	at org.knime.base.node.viz.property.color.ColorManager2NodeDialogPane.saveSettingsTo(ColorManager2NodeDialogPane.java:415)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 11:28:05,805 : WARN  : KNIME-Worker-45-Color Manager 0:18 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:28:47,320 : WARN  : main :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:38:03,038 : WARN  : main :  : Node : Color Manager : 0:22 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 11:38:27,450 : ERROR : main :  : OsmMapViewNodeDialog : OSM Map View : 0:23 : Error loading model settings
+java.lang.NullPointerException
+	at org.knime.core.node.util.filter.column.DataColumnSpecFilterConfiguration.toFilteredStringArray(DataColumnSpecFilterConfiguration.java:356)
+	at org.knime.core.node.util.filter.column.DataColumnSpecFilterConfiguration.loadConfigurationInDialog(DataColumnSpecFilterConfiguration.java:147)
+	at org.knime.core.node.defaultnodesettings.SettingsModelColumnFilter2.loadSettingsForDialog(SettingsModelColumnFilter2.java:211)
+	at org.knime.core.node.defaultnodesettings.SettingsModel.dlgLoadSettingsFrom(SettingsModel.java:202)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.loadSettingsFrom(DialogComponent.java:170)
+	at org.knime.core.node.defaultnodesettings.DefaultNodeSettingsPane.loadSettingsFrom(DefaultNodeSettingsPane.java:273)
+	at org.knime.core.node.NodeDialogPane.callDerivedLoadSettingsFrom(NodeDialogPane.java:513)
+	at org.knime.core.node.NodeDialogPane$3.run(NodeDialogPane.java:466)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 11:39:17,134 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 11:39:19,131 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 11:39:47,153 : WARN  : KNIME-Worker-55-DBSCAN 0:20 :  : Node : DBSCAN : 0:20 : Execution canceled
+2021-10-11 11:39:47,153 : WARN  : KNIME-Worker-47-DBSCAN 0:16 :  : Node : DBSCAN : 0:16 : Execution canceled
+2021-10-11 11:39:47,155 : WARN  : KNIME-Worker-55-DBSCAN 0:20 :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 11:39:47,161 : WARN  : KNIME-Worker-47-DBSCAN 0:16 :  : Node : Color Manager : 0:18 : Selected column "Cluster" with default nominal color mapping.
+2021-10-11 12:04:54,040 : WARN  : ModalContext :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:04:54,087 : WARN  : ModalContext :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:04:54,449 : WARN  : ModalContext :  : Node : Color Manager : 0:8 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:04:54,526 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: KNIME_project 0 loaded with warnings
+2021-10-11 12:04:54,527 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: KNIME_project 0
+2021-10-11 12:04:54,527 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Color Manager 0:18
+2021-10-11 12:04:54,527 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2021-10-11 12:04:54,527 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Color Manager 0:8
+2021-10-11 12:04:54,527 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from CONFIGURED to IDLE
+2021-10-11 12:04:56,950 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140263498549952}
+2021-10-11 12:06:00,247 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:06:00,251 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:06:00,256 : WARN  : main :  : Node : Color Manager : 0:8 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:06:43,506 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:07:03,195 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:07:05,681 : WARN  : main :  : Node : Color Manager : 0:22 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:07:34,012 : WARN  : main :  : Node : Row Filter : 0:24 : No row filter specified
+2021-10-11 12:07:51,415 : WARN  : KNIME-Worker-3-Geo-Coordinate Row Filter 0:19 :  : Node : Row Filter : 0:24 : No row filter specified
+2021-10-11 12:08:08,333 : WARN  : KNIME-Worker-4-DBSCAN 0:20 :  : Node : Row Filter : 0:24 : No row filter specified
+2021-10-11 12:26:22,036 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:26:22,781 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:28:48,728 : WARN  : main :  : Node : Distance Matrix Calculate : 0:11 : Distance not set.
+2021-10-11 12:29:19,235 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:32:54,276 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:32:55,992 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:37:56,514 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:37:58,374 : WARN  : main :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:39:32,493 : WARN  : KNIME-Worker-16-Row Filter 0:25 :  : Node : Color Manager : 0:18 : Column "Cluster" has no nominal values set: execute predecessor or add Binner.
+2021-10-11 12:40:30,920 : WARN  : main :  : WrappedNodeDialog : Color Manager : 0:18 : failed to apply settings: No color settings for Cluster available.
+org.knime.core.node.InvalidSettingsException: No color settings for Cluster available.
+	at org.knime.base.node.viz.property.color.ColorManager2NodeDialogPane.saveSettingsTo(ColorManager2NodeDialogPane.java:415)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-10-11 12:40:34,225 : WARN  : main :  : WrappedNodeDialog : Color Manager : 0:18 : failed to apply settings: No color settings for Cluster available.
+org.knime.core.node.InvalidSettingsException: No color settings for Cluster available.
+	at org.knime.base.node.viz.property.color.ColorManager2NodeDialogPane.saveSettingsTo(ColorManager2NodeDialogPane.java:415)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)

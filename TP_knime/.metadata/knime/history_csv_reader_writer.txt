@@ -1,0 +1,1 @@
+/home/tommaso/M2/Semestre_3/DCD/TP1/flickr_data.csv
